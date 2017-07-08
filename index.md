@@ -4,7 +4,7 @@ layout: splash
 permalink: /
 header:
   overlay_filter: "0.1"
-  overlay_color: "#0e175b"
+  overlay_color: "#16305e"
   overlay_image: /assets/images/bg-main.png
 excerpt: "Teaching and Learning Mathematics"
 author-profile: true
