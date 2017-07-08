@@ -1,7 +1,9 @@
 ---
 layout: splash
+title: Oscar Levin
+excerpt: "Teaching and Learning Mathematics"
 header:
-  image: /assets/images/bg-main.png  
+  image: /assets/images/bg-main.png
 author-profile: true
 ---
 
