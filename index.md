@@ -3,8 +3,7 @@ title: "Oscar Levin"
 layout: splash
 permalink: /
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.1"
   overlay_image: /assets/images/bg-main.png
 excerpt: "Teaching and Learning Mathematics"
 author-profile: true
@@ -27,5 +26,3 @@ To support my students in Discrete Mathematics, I have written a free and open s
 ## Research
 
 My primary interests are in effective algebra and combinatorics, computability theory, reverse mathematics, and mathematical logic. Effective algebra endeavors to understand results of algebra and combinatorics from a viewpoint of computability theory. My Ph.D. dissertation concerns the effective content of ordered fields. My thesis, along with some other papers I've worked on, are available on my [research page](research)
-
-[Button](http://discretetext.oscarlevin.com){: .btn .btn--info}

@@ -4,4 +4,11 @@
 
 @charset "utf-8";
 
+$very-dark-gray: mix(#000000, #ffffff, 80%);
+$dark-blue: #293a66;
+
+$text-color: $very-dark-gray;
+// $masthead-link-color: $dark-blue;
+$link-color: #104599;
+
 @import "minimal-mistakes";
