@@ -1,221 +1,240 @@
-# [Alembic](https://alembic.darn.es/)
-[![Gem Version](https://badge.fury.io/rb/alembic-jekyll-theme.svg)](https://badge.fury.io/rb/alembic-jekyll-theme)
+# Beautiful Jekyll
 
-⚗ A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
+[![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
 
-![Screenshot](https://raw.githubusercontent.com/daviddarnes/alembic/master/screenshot.png)
+> *Copyright 2016 [Dean Attali](http://deanattali.com)*
 
-## Contents
-- [About](#about)
+**Beautiful Jekyll** is a ready-to-use template to help you create an awesome website quickly. Perfect for personal blogs or simple project websites.  [Check out a demo](http://deanattali.com/beautiful-jekyll) of what you'll get after just two minutes.  You can also look at [my personal website](http://deanattali.com) to see it in use, or see examples of websites other people created using this theme [here](#showcased-users-success-stories).
+
+**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/daattali/20) for developing and maintaining this template.**
+
+<p align="center">
+  <a href="https://www.paypal.me/daattali">
+    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" />
+  </a>
+</p>
+
+### Table of contents
+
+- [Prerequisites](#prerequisites)
+- [Build your website in 3 steps](#build-your-website-in-3-steps)
+- [Add your own content](#add-your-own-content)
+- [Last important thing: YAML front matter ("parameters" for a page)](#last-important-thing-yaml-front-matter-parameters-for-a-page)
 - [Features](#features)
-- [Examples](#examples)
-- [Installation](#installation)
-- [Configuration](#configuration)
-  - [Gem dependency settings](#gem-dependency-settings)
-  - [Site settings](#site-settings)
-  - [Site navigation](#site-navigation)
-- [Using includes](#using-includes)
-- [Page layouts](#page-layouts)
-- [Page and Post options](#page-and-post-options)
-- [Credits](#credits)
+- [Creating a User Page vs a Project Page](#creating-a-user-page-vs-a-project-page)
+- [Showcased users (success stories!)](#showcased-users-success-stories)
+- [Advanced: local development](#advanced-local-development-using-docker)
+- [Credits and contributions](#credits)
 
-## About
+## Prerequisites
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
+- You need to have a GitHub account. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. This is where your website will live - if you sign up with username `johnsmith` then your website will be `http://johnsmith.github.io`.  
+- It would be helpful to understand what Markdown is and how to write it. Markdown is just a way to take a piece of text and format it to look a little nicer.  For example, this whole instruction set that you're reading is written in markdown - it's just text with some words being bold/larger/italicized/etc. I recommend taking 5 minutes to learn markdown [with this amazingly easy yet useful tutorial](http://markdowntutorial.com/).
+
+## Build your website in 3 steps
+
+Getting started is *literally* as easy as 1-2-3 :smile:   
+Scroll down to see the steps involved, but here is a 40-second video just as a reference as you work through the steps.
+
+![Installation steps](img/install-steps.gif)
+
+### 1. Fork this repository
+
+(Assuming you are on this page and logged into GitHub) Fork this repository by clicking the *Fork* button on the top right corner. Forking means that you now copied this whole project and all the files into your account.
+
+### 2. Rename the repository to `<yourusername>.github.io`
+
+This will create a GitHub User page ready with the **Beautiful Jekyll** template that will be available at `http://<yourusername>.github.io` within a couple minutes.  To do this, click on *Settings* at the top (the cog icon) and there you'll have an option to rename.
+
+### 3. Customize your website settings
+
+Edit the `_config.yml` file to change all the settings to reflect your site. To edit the file, click on it and then click on the pencil icon (watch the video tutorial above if you're confused).  The settings in the file are fairly self-explanatory and I added comments inside the file to help you further. Any line that begins with a pound sign (`#`) is a comment, and the rest of the lines are actual settings.
+
+Another way to edit the config file (or any other file) is to use [prose.io](http://prose.io/), which is just a simple interface to allow you to more intuitively edit files or add new files to your project.
+
+After you save your changes to the config file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `http://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so.
+
+You can now visit your shiny new website, which will be seeded with several sample blog posts and a couple other pages. Your website is at `http://<yourusername>.github.io` (replace `<yourusername>` with your user name). Do not add `www` to the URL - it will not work!
+
+**Note:** The video above goes through the setup for a user with username `daattalitest`. I only edited one setting in the `_config.yml` file in the video, but **you should actually go through the rest of the settings as well. Don't be lazy, go through all the settings :)**
+
+## Add your own content
+
+To add pages to your site, you can either write a markdown file (`.md`) or you can write an HTML file directly.  It is much easier to write markdown than HTML, so I suggest you do that (use the [tutorial I mentioned above](http://markdowntutorial.com/) if you need to learn markdown). You can look at some files on this site to get an idea of how to write markdown. To look at existing files, click on any file that ends in `.md`, for example [`aboutme.md`](./aboutme.md). On the next page you can see some nicely formatted text (there is a word in bold, a link, bullet points), and if you click on the pencil icon to edit the file, you will see the markdown that generated the pretty text. Very easy!
+
+In contrast, look at [`index.html`](./index.html). That's how your write HTML - not as pretty. So stick with markdown if you don't know HTML.
+
+Any file that you add inside the [`_posts`](./_posts) directory will be treated as a blog entry.  You can look at the existing files there to get an idea of how to write blog posts.  After you successfully add your own post, you can delete the existing files inside [`_posts`](./_posts) to remove the sample posts, as those are just demo posts to help you learn.
+
+As mentioned previously, you can use [prose.io](http://prose.io/) to add or edit files instead of doing it directly on GitHub, it can be a little easier that way.
+
+## Last important thing: YAML front matter ("parameters" for a page)
+
+In order to have your new pages use this template and not just be plain pages, you need to add [YAML front matter](http://jekyllrb.com/docs/frontmatter/) to the top of each page. This is where you'll give each page some parameters that I made available, such as a title and subtitle. I'll go into more detail about what parameters are available later. If you don't want to use any parameters on your new page (this also means having no title), then use the empty YAML front matter:
+
+```
+---
+---
+```
+
+If you want to use any parameters, write them between the two lines. For example, you can have this at the top of a page:
+
+```
+---
+title: Contact me
+subtitle: Here you'll find all the ways to get in touch with me
+---
+```
+
+You can look at the top of [`aboutme.md`](./aboutme.md) or [`index.html`](./index.html) as more examples.
+
+**Important takeaway: ALWAYS add the YAML front matter, which is two lines with three dashes, to EVERY page. If you have any parameters, they go between the two lines.**    
+If you don't include YAML then your file will not use the template.
 
 ## Features
 
-- Available as a starter kit or as [Jekyll theme gem](http://jekyllrb.com/docs/themes/)
-- Simple and elegant design that can be used out of the box or as solid starting point
-- Tested in all major browsers, including IE and Edge
-- Configurable colours and typography in a single settings file
-- Extensive set of shortcodes to include various elements; such as buttons, icons, figure images and more
-- Solid typographic framework from [Sassline](https://sassline.com/)
-- Configurable navigation via a single file
-- Modular Jekyll components
-- Post category support in the form of a single post index page grouped by category
-- Built in live search using JavaScript
-- Contact form built in using [Formspree](https://formspree.io/)
-- Works on [GitHub Pages](https://pages.github.com/) out of the box
-- Designed with [Siteleaf](http://www.siteleaf.com/) in mind
-- Has 9 of the most popular networks as performant sharing buttons
-- Has documentation
+### Mobile-first
+**Beautiful Jekyll** is designed to look great on both large-screen and small-screen (mobile) devices. Load up your site on your phone or your gigantic iMac, and the site will work well on both, though it will look slightly different.
 
-## Examples
+### Customizable
 
-Here are a few examples of Alembic out in the wild being used in a variety of ways:
+Many personalization settings in `_config.yml`, such as setting your name and site's description, setting your avatar to add a little image in the navigation bar, customizing the links in the menus, customizing what social media links to show in the footer, etc.
 
-- [bitpodcast.com](https://bitpodcast.com/)
-- [joelcagedesign.com](https://joelcagedesign.com/)
-- [bawejakunal.github.io](https://bawejakunal.github.io/)
-- [case2111.github.io](http://case2111.github.io/)
-- [www.10people.co.uk](http://www.10people.co.uk/)
-- [hrkeni.me](http://hrkeni.me/)
-- [venuthatikonda.github.io](https://venuthatikonda.github.io/)
-- [ccs17.bsc.es](https://ccs17.bsc.es/)
+### Allowing users to leave comments
 
-## Installation
+If you want to enable comments on your site, Beautiful Jekyll supports the [Disqus](https://disqus.com/) comments plugin.  To use it, simply sign up to Disqus and add your Disqus shortname to the `disqus` parameter in the `_config.yml`.
 
-### As a Boilerplate / Fork
+If the `disqus` parameter is set in the configuration file, then all blog posts will have comments turned on by default. To turn off comments on a particular blog post, add `comments: false` to the YAML front matter. If you want to add comments on the bottom of a non-blog page, add `comments: true` to the YAML front matter.
 
-1. [Fork the repo](https://github.com/daviddarnes/alembic#fork-destination-box)
-2. Clone down the repo with `$ git clone git@github.com:username/reponame.git`
-3. Delete the following unnecessary files/folders: `demo/`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `LICENSE`, `screenshot.png` and `alembic-jekyll-theme.gemspec`
-4. Change the `logo.svg` and `default-social-image.png` in the `assets/` folder to your own branding
-5. Configure your site settings using the `_config.yml`, more info can be found in [Configuration](#configuration)
-5. Change the `CNAME` record to your projects' record
-6. Install bundler with `$ gem install bundler`
-7. Install gems with `$ bundle install`
-8. Run Jekyll with `$ bundle exec jekyll serve --watch`
-9. Begin hacking for your project
+### Adding Google Analytics to track page views
 
-### As a Jekyll 3.3 theme gem
+Beautiful Jekyll lets you easily add Google Analytics to all your pages. This will let you track all sorts of information about visits to your website, such as how many times each page is viewed and where (geographically) your users come from.  To add Google Analytics, simply sign up to [Google Analytics](http://www.google.com/analytics/) to obtain your Google Tracking ID, and add this tracking ID to the `google_analytics` parameter in `_config.yml`.
 
-1. Download the starter `/demo` content, [quick download link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/daviddarnes/alembic/tree/master/demo)
-2. Configure your site settings using the `_config.yml`, more info can be found in [Configuration](#configuration)
-3. Create a `logo.svg` and `default-social-image.png` in a new `assets/` folder
-4. Install bundler with `$ gem install bundler`
-5. Install gems with `$ bundle install`
-6. Run Jekyll with `$ bundle exec jekyll serve --watch`
-7. Begin hacking for your project
+### Sharing blog posts on social media
 
-### Boilerplate & Theme differences
+By default, all blog posts will have buttons at the bottom of the post to allow people to share the current page on Twitter/Facebook/LinkedIn.  You can choose to enable/disable specific social media websites in the `_config.yml` file. You can also turn off the social media buttons on specific blog posts using `social-share: false` in the YAML front matter.
 
-The boilerplate kit is better for more drastic hacking and changes, a project that's quite different to any other and needs a lot of custom work done. Additionally you'll only be able to use this method if you want to host it on GitHub Pages, as [themes can't be submitted](https://pages.github.com/themes/)... yet.
+### RSS feed
 
-Using the theme will allow you to receive updates made and will be more programmatic. To make your own changes you'll need to overwrite the files with your own. For example: If I want to change the colours and typography of my site I'll need to copy the [`_settings.scss`](https://github.com/daviddarnes/alembic/blob/master/_sass/_settings.scss) file and create my own in `_sass/_settings.scss` with my own changes. This is the same for all files within the theme, which means your own project will be more lean than if you were to use the boilerplate.
+Beautiful Jekyll automatically generates a simple RSS feed of your blog posts, to allow others to subscribe to your posts.  If you want to add a link to your RSS feed in the footer of every page, find the `rss: false` line in `_config.yml` and change it to `rss: true`.
 
-## Configuration
+### Page types
 
-There's a number of settings you'll need to change before you can start hacking away at files. Here's a run down of what you'll need to change:
+- **post** - To write a blog post, add a markdown or HTML file in the `_posts` folder. As long as you give it YAML front matter (the two lines of three dashes), it will automatically be rendered like a blog post. Look at the existing blog post files to see examples of how to use YAML parameters in blog posts.
+- **page** - Any page outside the `_posts` folder that uses YAML front matter will have a very similar style to blog posts.
+- **minimal** - If you want to create a page with minimal styling (ie. without the bulky navigation bar and footer), assign `layout: minimal` to the YAML front matter.
+- If you want to completely bypass the template engine and just write your own HTML page, simply omit the YAML front matter. Only do this if you know how to write HTML!
 
-### Gem dependency settings
-`twitter`, `author` and `social` values will need to be changed to the projects' social information or removed. Look for the `Gem settings` comment within the `/_config.yml` file. These values are for the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) - follow the link to find out more.
+### YAML front matter parameters
 
-### Site settings
-You'll need to change the `description`, `title` and `url` to match with the project. You'll also need to replace the `/assets/logo.svg` `/assets/default-social-image.png` with the project logo and default social image. The `email` needs to be changed to the email you want to receive contact form enquires with. The `disqus` value should be changed to your project username on [Disqus](https://disqus.com). Look for the `Site settings` comment within the `/_config.yml` file. The `repo` setting is optional, for now, and can be removed entirely, if you wish.
+These are the main parameters you can place inside a page's YAML front matter that **Beautiful Jekyll** supports.
 
-### Site navigation
-There are a total of 4 different navigation types:
+Parameter   | Description
+----------- | -----------
+title       | Page or blog post title
+subtitle    | Short description of page or blog post that goes under the title
+bigimg      | Include a large full-width image at the top of the page.  You can either give the path to a single image, or provide a list of images to cycle through (see [my personal website](http://deanattali.com/) as an example).
+comments    | If you want do add Disqus comments to a specific page, use `comments: true`. Comments are automatically enabled on blog posts; to turn comments off for a specific post, use `comments: false`. Comments only work if you set your Disqus id in the `_config.yml` file.
+show-avatar | If you have an avatar configured in the `_config.yml` but you want to turn it off on a specific page, use `show-avatar: false`. If you want to turn it off by default, locate the line `show-avatar: true` in the file `_config.yml` and change the `true` to `false`; then you can selectively turn it on in specific pages using `show-avatar: true`.
+image       | If you want to add a personalized image to your blog post that will show up next to the post's excerpt and on the post itself, use `image: /path/to/img`.
+share-img   | If you want to specify an image to use when sharing the page on Facebook or Twitter, then provide the image's full URL here.
+social-share | If you don't want to show buttons to share a blog post on social media, use `social-share: false` (this feature is turned on by default).
+use-site-title | If you want to use the site title rather than page title as HTML document title (ie. browser tab title), use `use-site-title: true`. When set, the document title will take the format `Site Title - Site Description` (eg. `My website - A virtual proof that name is awesome!`). By default, it will use `Page Title` if it exists, or `Site Title` otherwise.
+layout      | What type of page this is (default is `blog` for blog posts and `page` for other pages. You can use `minimal` if you don't want a header and footer)  
+js          | List of local JavaScript files to include in the page (eg. `/js/mypage.js`)
+ext-js      | List of external JavaScript files to include in the page (eg. `//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js`). External JavaScript files that support [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) can be specified using the `href` and `sri` parameters eg.<br/>`href: "//code.jquery.com/jquery-3.1.1.min.js"`<br/>`sri: "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="`
+css         | List of local CSS files to include in the page
+ext-css      | List of external CSS files to include in the page. External CSS files using SRI (see `ext-js` parameter) are also supported. 
+googlefonts | List of Google fonts to include in the page (eg. `["Monoton", "Lobster"]`)
 
-- `navigation_header`: The links shown in the header (it is also used on the 404 page)
-- `navigation_footer`: The links shown in the footer
-- `social_links`: The social icon links that are shown in the sidebar
-- `sharing_links`: The social sharing buttons that are shown at the bottom of blog posts
+### Advanced features (including how to use a custom URL address for your site)
 
-All navigations can be edited using the `_config.yml` file. To see example usage either look for the `Site navigation` comment within the `/_config.yml` file or see [the nav-share.html include](#nav-sharehtml).
+I wrote [a blog post](http://deanattali.com/2015/03/12/beautiful-jekyll-how-to-build-a-site-in-minutes/) describing some more advanced features that I used in my website that are applicable to any Jekyll site.  It describes how I used a custom URL for my site (deanattali.com instead of daattali.github.io), how to add a Google-powered search into your site, and provides a few more details about having an RSS feed.
 
-If there are no items for the `navigation_header` or `navigation_footer`, they will fallback to a list of pages within the site. The `social_navigation` properties should either be one that is already in the list (so `Twitter` or `Facebook`) or simply `link`, this is so an icon can be set for the link.
+## Creating a User Page vs a Project Page
 
-## Using includes
+If you're not sure what the difference is, you can probably safely ignore this section.
 
-There are 2 main types of includes: ones designed for the site and ones that are designed as shortcodes. Here are a list of the shortcode includes:
+If you want to use this theme to host a website that will be available at `https://YOURUSERNAME.github.io`, then you do not need to read this section. That is called a User Page, you can only have one User Page in your GitHub account, and it is what you get by default when forking this project.
 
-### `button.html`
-A button that can link to a page of any kind.
+If you want to use this theme to create a website for a particular repository, it will be available at `https://YOURUSERNAME.github.io/REPONAME`, and that is called a [Project Page](https://help.github.com/articles/user-organization-and-project-pages/). You can have a Project Page for each repository you have on GitHub. There are two important things to note when creating a project page:
 
-Example usage: `{% include button.html text="I'm a button" link="https://david.darn.es" %}`
+1. In the configuration file (`_config.yml`), you should set `baseurl` to be `/projectname` instead of `""`.
+2. Project Pages are served from a branch named `gh-pages`, and you should be generating all the website content on that branch. When you fork Beautiful Jekyll, you'll already have a `gh-pages` branch but you should delete it and generate it again from the `master` branch. The reason is that the `gh-pages` branch in its current form does not have the updated code of Beautiful Jekyll, so you need to create that branch from the `master` branch (which is where all my new features and work go into).
 
-Available options:
-- `text`: The text of the button _required_
-- `link`: The link that the button goes to _required_
-- `icon`: The icon that is added to the end of the button text
-- `color`: The color of the button
+## Showcased users (success stories!)
 
-### `figure.html`
-An image with optional caption.
+To my huge surprise, Beautiful Jekyll has been used in over 500 websites in its first 6 months alone! Here is a hand-picked selection of some websites that use Beautiful Jekyll.
 
-Example usage: `{% include figure.html image="/uploads/feature-image.jpg" caption="Check out my photo" %}`
+Want your website featured here? [Contact me](http://deanattali.com/aboutme#contact) to let me know about your website.
 
-Available options:
-- `image`: The image shown _required_
-- `caption`: A caption to explain the image
-- `position`: The position of the image, `left` or `right`
+### Project/company websites
 
-### `icon.html`
-An icon.
+| Website | Description |
+| :------ |:----------- |
+| [teampass.net](http://teampass.net) | Collaborative Passwords Manager |
+| [derekogle.com/fishR](http://derekogle.com/fishR/) | Using R for Fisheries Analyses |
+| [bigdata.juju.solutions](http://bigdata.juju.solutions) | Creating Big Data solutions Juju Solutions |
+| [joecks.github.io/clipboard-actions](http://joecks.github.io/clipboard-actions/) | Clipboard Actions - an Android app |
+| [deanattali.com/shinyjs](http://deanattali.com/shinyjs/) | shinyjs - an R package |
+| [blabel.github.io](http://blabel.github.io) | Library for canonicalising blank node labels in RDF graphs |
+| [reactionic.github.io](http://reactionic.github.io) | Create iOS and Android apps with React and Ionic |
+| [ja2-stracciatella.github.io](http://ja2-stracciatella.github.io) | Jagged Alliance 2 Stracciatella |
+| [PatientOutcomeFunding.org](http://www.patientoutcomefunding.org/) | Patient Outcome Funding |
+| [ddocent.com](http://ddocent.com/) | RADSeq Bioinformatics and Beyond |
+| [fightthecube.com](http://fightthecube.com/) | Fight The Cube (personal finance education) |
 
-Example usage: `{% include icon.html id="twitter" %}`
+### Personal websites
 
-Available options:
-- `id`: The reference for the icon _required_
-- `title`: The accessible label for the icon
-- `color`: The desired colour of the icon
+| Website | Who | What |
+| :------ |:--- | :--- |
+| [deanattali.com](http://deanattali.com) | Dean Attali | Creator of Beautiful Jekyll |
+| [ouzor.github.io](http://ouzor.github.io) | Juuso Parkkinen | Data scientist |
+| [derekogle.com](http://derekogle.com/) | Derek Ogle | Professor of Mathematical Sciences and Natural Resources |
+| [melyanna.github.io](http://melyanna.github.io/) | Melyanna | Shows off her nice art |
+| [chauff.github.io](http://chauff.github.io/) | Claudia Hauff | Professor at Delft University of Technology |
+| [kootenpv.github.io](http://kootenpv.github.io/) | Pascal van Kooten | Data analytics |
+| [sjackman.ca](http://sjackman.ca) | Shaun Jackman | PhD candidate in bioinformatics |
+| [epwalsh.com](https://epwalsh.com) | Evan Pete Walsh | PhD candidate (Statistics and Mathematics) at Iowa State University ||
+| [anudit.in](http://www.anudit.in/) | Anudit Verma | Engineering student |
+| [sharepointoscar.github.io](http://sharepointoscar.github.io) | Oscar Medina | Independent Hacker |
 
-### `nav-share.html`
-A set of buttons that share the current page to various social networks, which is controlled within the `_config.yml` file under the `sharing_links` keyword.
 
-Example usage: `{% include nav-share.html %}`
+## Advanced: Local development using Docker
 
-Available options:
-``` yml
-Twitter: "#1DA1F2"
-facebook: "#3B5998"
-Google+: "#DC4E41"
-Pinterest: "#BD081C"
-LinkedIn: "#0077B5"
-tumblr: "#36465D"
-Reddit: "#FF4500"
-Hacker News: "#ff6600"
-Designer News: "#2D72D9"
-Email: ""
-```
+Beautiful Jekyll is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Follow these simple steps to do that with Docker:
 
-_The first item is the name of the network (must be one of the ones stated above) and the second is the colour of the button. To remove a button just remove the line of the same name._
+1. Make sure that you have Docker installed on your local environment. Installation instructions can be found [here](https://docs.docker.com/engine/installation/)
+2. Clone your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
+3. Inside your repository folder, run:
 
-### `video.html`
-A YouTube video.
+    ```
+    docker run -p 4000:4000 -v `pwd`:/app mangar/jekyll:1.1 bash -c "bundle install; bundle exec jekyll serve"
+    ```
+4. View your website at <http://localhost:4000>.
 
-Example usage: `{% include video.html id="zrkcGL5H3MU" %}`
+Disclaimer: I personally am NOT using local development so I don't know much about running Jekyll locally. If you follow this route, please don't ask me questions because unfortunately I honestly won't be able to help!		
+  		  
+Aditionally, if you choose to deploy Jekyll using a local ruby installation, you can tell Jekyll to automatically categorize your blog posts by tags. You just need to set `link-tags: true` in `_config.yml`. Jekyll will then generate a new page for each unique tag which lists all of the posts that belong to that tag.
 
-Available options:
-- `id`: The YouTube ID for the video _required_
-
-### `map.html`
-A Google map. _See Google [My Maps](https://www.google.com/mymaps)_
-
-Example usage: `{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" %}`
-
-Available options:
-- `id`: The map ID for the video _required_
-
-### `site-form.html`
-Adds a contact form to the page.
-
-Example usage: `{% include site-form.html %}`
-
-This include has no options. Use the `email` option in the `/_config.yml` to change to the desired email.
-
-### `site-search.html`
-Adds a search form to the page.
-
-Example usage: `{% include site-search.html %}`
-
-This include has no options. This include will add a block of javascript to the page and javascript reference in order for the search field to work correctly.
-
-## Page layouts
-
-As well as `page`, `post`, `blog`, there are a few alternative layouts that can be used on pages:
-
-- `categories`: Shows all posts grouped by category, with an index of categories in a left hand sidebar
-- `search`: Adds a search field to the page as well as a simplified version of the sidebar to allow more focus on the search results
-
-## Page and Post options
-
-There are some more specific options you can apply when creating a page or a post:
-
-- `aside: true`: Adds a sidebar to the page or post, this is false by default and will not appear
-- `comments: false`: Turns off comments for that post
-- `feature_image: "/uploads/feature-image.jpg"`: Adds a full width feature image at the top of the page
-- `feature_text: "Example text"`: Adds text to the top of the page as a full width feature with solid colour; supports markdown. This can be used in conjunction with the `feature_image` option to create a feature image with text over it
-- `indexing: false`: Adds a `noindex` meta element to the `<head>` to stop crawler bots from indexing the page, used on the 404 page
-
-> **Note:** The Post List Page options are actually in the collection data within the `_config.yml` file.
 
 ## Credits
 
-- Thanks to [Simple Icons](https://simpleicons.org/) for providing the brand icons, by [Dan Leech](https://twitter.com/bathtype)
-- Thanks to [Sassline](https://sassline.com/) for the typographic basis, by [Jake Giltsoff](https://twitter.com/jakegiltsoff)
-- Thanks to [Flexbox mixin](https://github.com/mastastealth/sass-flex-mixin) by [Brian Franco](https://twitter.com/brianfranco)
-- Thanks to [Normalize](https://necolas.github.io/normalize.css/) by [Nicolas Gallagher](https://twitter.com/necolas) and [Jonathan Neal](https://twitter.com/jon_neal).
-- Thanks to [pygments-css](http://richleland.github.io/pygments-css/) for the autumn syntax highlighting, by [Rich Leland](https://twitter.com/richleland)
+This template was not made entirely from scratch. I would like to give special thanks to:
+- [Barry Clark](https://github.com/barryclark) and his project [Jekyll Now](https://github.com/barryclark/jekyll-now), from whom I've taken several ideas and code snippets, as well as some documenation tips.
+- [Iron Summit Media](https://github.com/IronSummitMedia) and their project [Bootstrap Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog), from which I've used some design ideas and some of the templating code for posts and pagination.
+
+I'd also like to thank [Dr. Jekyll's Themes](http://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
+
+## Contributions
+
+If you find anything wrong or would like to contribute in any way, feel free to create a pull request/open an issue/send me a message.  Any comments are welcome!
+
+Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). Special thanks to the following people with non-trivial contributions (in chronological order): [@hristoyankov](https://github.com/hristoyankov), [@jamesonzimmer](https://github.com/jamesonzimmer), [@XNerv](https://github.com/XNerv), [@epwalsh](https://github.com/epwalsh), [@rtlee9](https://github.com/rtlee9).
+
+If you do fork or clone this project to use as a template for your site, I would appreciate if you keep the link in the footer to this project.  I've noticed that several people who forked this repo removed the attribution and I would prefer to get the recognition if you do use this :)
+
+## Known limitations
+
+- If you have a project page and you want a custom 404 page, you must have a custom domain.  See https://help.github.com/articles/custom-404-pages/.  This means that if you have a regular User Page you can use the 404 page from this theme, but if it's a website for a specific repository, the 404 page will not be used.
