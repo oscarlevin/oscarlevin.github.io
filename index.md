@@ -1,9 +1,12 @@
 ---
+title: "Oscar Levin"
 layout: splash
-title: Oscar Levin
-excerpt: "Teaching and Learning Mathematics"
+permalink: /
 header:
-  image: /assets/images/bg-main.png
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/bg-main.png
+excerpt: "Teaching and Learning Mathematics"
 author-profile: true
 ---
 
