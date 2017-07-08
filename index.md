@@ -1,5 +1,7 @@
 ---
 layout: splash
+header:
+  image: /assets/images/bg-main.png  
 author-profile: true
 ---
 
