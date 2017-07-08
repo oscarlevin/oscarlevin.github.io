@@ -1,8 +1,6 @@
 ---
-layout: page
-title: Oscar Levin
-subtitle: Associate Professor of Mathematics; University of Northern Colorado
-use-site-title: true
+layout: single
+author-profile: true
 ---
 
 # Welcome
