@@ -23,7 +23,7 @@
     display: flex;
     -webkit-box-pack: justify;
      justify-content: space-between;
-    padding: 2px 1em 0em;
+    padding: .5em 1em 0em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
