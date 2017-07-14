@@ -28,4 +28,3 @@ To support my students in Discrete Mathematics, I have written a free and open s
 
 My primary interests are in effective algebra and combinatorics, computability theory, reverse mathematics, and mathematical logic. Effective algebra endeavors to understand results of algebra and combinatorics from a viewpoint of computability theory. My Ph.D. dissertation concerns the effective content of ordered fields. My thesis, along with some other papers I've worked on, are available on my [research page](research)
 
-This is some math: $$x=3$$.
