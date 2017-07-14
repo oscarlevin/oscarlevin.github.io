@@ -1,6 +1,6 @@
 ---
 title: "Oscar Levin"
-layout: splash
+layout: single
 permalink: /
 header:
   overlay_filter: "0.1"
@@ -16,7 +16,7 @@ I am an Associate Professor in the School of Mathematical Sciences at the Univer
 
 ## Teaching
 
-Since arriving at UNC in 2011, I taught Discrete Mathematics many times, as well as Modern Geometry I, Abstract Algebra I and II, Calculus I and II, Topics in Calculus, Basic Analysis I and II, Algorithms and Data Structures, as well as graduate courses in Logic, Graph Theory, Analysis, and Applied Probability and Statistics. I have also designed a 1-credit corequisite course for calculus called Supplemental Calculus, to provide students just-in-time help while they take Calculus I.
+Since arriving at UNC in 2011, I have taught Discrete Mathematics many times, as well as Modern Geometry I, Abstract Algebra I and II, Calculus I and II, Topics in Calculus, Basic Analysis I and II, Algorithms and Data Structures, as well as graduate courses in Logic, Graph Theory, Analysis, and Applied Probability and Statistics. I have also designed a 1-credit corequisite course for calculus called Supplemental Calculus, to provide students just-in-time help while they take Calculus I.
 
 I have also taught a wide variety of courses at Coastal Carolina University and the University of Connecticut while I did my graduate work there.
 
@@ -29,4 +29,3 @@ To support my students in Discrete Mathematics, I have written a free and open s
 My primary interests are in effective algebra and combinatorics, computability theory, reverse mathematics, and mathematical logic. Effective algebra endeavors to understand results of algebra and combinatorics from a viewpoint of computability theory. My Ph.D. dissertation concerns the effective content of ordered fields. My thesis, along with some other papers I've worked on, are available on my [research page](research)
 
 This is some math: $$x=3$$.
-
