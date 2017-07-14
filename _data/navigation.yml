@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "Teaching"
-    url: /teaching/
+    url: teaching/
   - title: "Research"
-    url: /research/
+    url: research/
   - title: "Textbook"
     url: http://discretetext.oscarlevin.com/
   - title: "Puzzles"
-    url: /puzzles/
+    url: puzzles/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
