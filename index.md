@@ -1,9 +1,7 @@
 ---
 title: "Oscar Levin, PhD"
-site:
-  title: "OL"
+title-override: "OL"
 layout: single
-permalink: /
 header:
   overlay_filter: "0.1"
   overlay_color: "#16305e"
