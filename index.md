@@ -1,6 +1,6 @@
 ---
 title: "Oscar Levin, PhD"
-title-override: "OL"
+title-override: ""
 layout: single
 header:
   overlay_filter: "0.1"
