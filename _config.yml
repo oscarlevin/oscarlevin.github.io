@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Oscar Levin"
+title                    : "Oscar Levin, PhD"
 title_separator          : "-"
 name                     : "Oscar Levin"
 description              : "Associate Professor of Mathematics"
@@ -77,7 +77,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Oscar levin"
+  name             : "Oscar Levin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Associate Professor"
   location         : "School of Mathematical Sciences; University of Northern Colorado"
