@@ -5,7 +5,7 @@
         <a class="site-title" href="{{ '/' | absolute_url }}">
           {% if page.title-override %}
             {{ page.title-override }}
-          {% esle %}
+          {% else %}
             {{ site.title }}
           {% endif %}</a>
         <ul class="visible-links">
