@@ -7,7 +7,7 @@ header:
   overlay_color: "#16305e"
   overlay_image: /assets/images/bg-main.png
 excerpt: "Teaching math and stuff"
-author-profile: true
+author_profile: true
 ---
 
 # Welcome
