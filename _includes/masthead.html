@@ -6,7 +6,8 @@
           {% if page.title-override %}
             {{ page.title-override }}
           {% esle %}
-            {{ site.title }}</a>
+            {{ site.title }}
+          {% endif %}</a>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
