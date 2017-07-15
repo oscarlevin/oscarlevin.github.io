@@ -1,6 +1,7 @@
 ---
 title: "Oscar Levin, PhD"
-site.title: "OL"
+site:
+  title: "OL"
 layout: single
 permalink: /
 header:
