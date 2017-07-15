@@ -79,8 +79,8 @@ analytics:
 author:
   name             : "Oscar Levin"
   avatar           : "/assets/images/headshot.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Associate Professor"
-  location         : "School of Mathematical Sciences; University of Northern Colorado"
+  bio              : "Associate Professor, School of Mathematical Sciences, University of Northern Colorado"
+  location         : "Greeley, Co"
   email            : "oscar.levin@unco.edu"
   uri              :
   bitbucket        :
@@ -105,7 +105,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "https://www.youtube.com/user/oscarlevin" # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
