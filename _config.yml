@@ -77,7 +77,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Oscar Levin"
+  name             : "Me"
   avatar           : "/assets/images/headshot.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Associate Professor, School of Mathematical Sciences, University of Northern Colorado"
   location         : "Greeley, Co"
