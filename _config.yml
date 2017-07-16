@@ -78,8 +78,8 @@ analytics:
 # Site Author
 author:
   name             : #"Oscar Levin"
-  avatar           : #"/assets/images/headshot.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : #"Associate Professor, School of Mathematical Sciences, University of Northern Colorado"
+  avatar           : "/assets/images/headshot.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Associate Professor"
   location         : #"Greeley, Co"
   email            : "oscar.levin@unco.edu"
   uri              :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "oscarlevin"
+  github           : #"oscarlevin"
   gitlab           :
   google_plus      :
   keybase          :
@@ -105,7 +105,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/user/oscarlevin" # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : #"https://www.youtube.com/user/oscarlevin" # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files

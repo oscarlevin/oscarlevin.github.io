@@ -10,14 +10,14 @@ excerpt: "Teaching math and stuff"
 author_profile: false
 sidebar:
   - title: ""
-    image: /assets/images/headshot.png
-    image_alt: "Oscar Levin, PhD"
+    #image: /assets/images/headshot.png
+    #image_alt: "Oscar Levin, PhD"
     text: "Associate Professor"
   - title: Coordinates
-    text: "School of Mathematical Sciences"
-    text: "University of Northern Colorado"
-    text: "Greeley, Co 80639"
-    text: "Ross 2229G"
+  - text: "School of Mathematical Sciences"
+  - text: "University of Northern Colorado"
+  - text: "Greeley, Co 80639"
+  - text: "Ross 2229G"
 ---
 
 # Welcome
