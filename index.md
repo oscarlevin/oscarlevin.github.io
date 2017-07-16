@@ -16,9 +16,9 @@ sidebar:
   - title: Coordinates
   - text: "School of Mathematical Sciences<br/> University of Northern Colorado <br/> Greeley, Co 80639"
   - text: "**Office**: Ross 2229G"
-  - text: " <a href="mailto:oscar.levin@unco.edu">
-              <meta itemprop="email" content="oscar.levin@unco.edu" />
-              <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+  - text: "<a href='mailto:oscar.levin@unco.edu'>
+              <meta itemprop='email' content='oscar.levin@unco.edu' />
+              <i class='fa fa-fw fa-envelope-square' aria-hidden='true'></i> {{ site.data.ui-text[site.locale].email_label | default: 'Email' }}
             </a>"
 ---
 
