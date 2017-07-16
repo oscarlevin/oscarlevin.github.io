@@ -7,17 +7,15 @@ header:
   overlay_color: "#16305e"
   overlay_image: /assets/images/bg-main.png
 excerpt: "Teaching math and stuff"
-author_profile: false
+author_profile: true
 sidebar:
-  - title: ""
+  # - title: ""
     #image: /assets/images/headshot.png
     #image_alt: "Oscar Levin, PhD"
-    text: "Associate Professor"
+    # text: "Associate Professor"
   - title: Coordinates
-  - text: "School of Mathematical Sciences"
-  - text: "University of Northern Colorado"
-  - text: "Greeley, Co 80639"
-  - text: "Ross 2229G"
+  - text: "School of Mathematical Sciences<br/> University of Northern Colorado <br/> Greeley, Co 80639"
+  - text: "_Office_: Ross 2229G"
 ---
 
 # Welcome
