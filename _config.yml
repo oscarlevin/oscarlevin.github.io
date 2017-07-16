@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Oscar Levin"
-  avatar           : "/assets/images/headshot.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Associate Professor, School of Mathematical Sciences, University of Northern Colorado"
-  location         : "Greeley, Co"
+  name             : #"Oscar Levin"
+  avatar           : #"/assets/images/headshot.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : #"Associate Professor, School of Mathematical Sciences, University of Northern Colorado"
+  location         : #"Greeley, Co"
   email            : "oscar.levin@unco.edu"
   uri              :
   bitbucket        :
