@@ -81,7 +81,7 @@ author:
   avatar           : "/assets/images/headshot.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Associate Professor"
   location         : #"Greeley, Co"
-  email            : "oscar.levin@unco.edu"
+  email            : #"oscar.levin@unco.edu"
   uri              :
   bitbucket        :
   codepen          :
