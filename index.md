@@ -15,7 +15,7 @@ sidebar:
     # text: "Associate Professor"
   - title: Coordinates
   - text: "School of Mathematical Sciences<br/> University of Northern Colorado <br/> Greeley, Co 80639"
-  - text: "_Office_: Ross 2229G"
+  - text: "**Office**: Ross 2229G"
 ---
 
 # Welcome
