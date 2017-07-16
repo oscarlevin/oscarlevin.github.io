@@ -18,7 +18,7 @@ sidebar:
   - text: "**Office**: Ross 2229G"
   - text: "<a href='mailto:oscar.levin@unco.edu'>
               <meta itemprop='email' content='oscar.levin@unco.edu' />
-              <i class='fa fa-fw fa-envelope-square' aria-hidden='true'></i> {{ site.data.ui-text[site.locale].email_label | default: 'Email' }}
+              <i class='fa fa-fw fa-envelope-square' aria-hidden='true'></i> oscar.levin@unco.edu
             </a>"
 ---
 
