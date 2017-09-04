@@ -14,7 +14,7 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(4 of 12);
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -135,6 +135,9 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
+}
+
+p .author__bio {
   font-size: $type-size-8;
 }
 
