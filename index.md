@@ -13,18 +13,18 @@ sidebar:
     #image: /assets/images/headshot.png
     #image_alt: "Oscar Levin, PhD"
     # text: "Associate Professor"
-  - title: Coordinates
-  - text: "School of Mathematical Sciences<br/> University of Northern Colorado <br/> Greeley, Co 80639"
-  - text: "**Office**: Ross 2229G"
-  - text: "<a href='mailto:oscar.levin@unco.edu'>
-              <meta itemprop='email' content='oscar.levin@unco.edu' />
-              <i class='fa fa-fw fa-envelope-square' aria-hidden='true'></i> oscar.levin@unco.edu
-            </a>"
+  # - title: Coordinates
+  # - text: "School of Mathematical Sciences<br/> University of Northern Colorado <br/> Greeley, Co 80639"
+  # - text: "**Office**: Ross 2229G"
+  # - text: "<a href='mailto:oscar.levin@unco.edu'>
+  #             <meta itemprop='email' content='oscar.levin@unco.edu' />
+  #             <i class='fa fa-fw fa-envelope-square' aria-hidden='true'></i> oscar.levin@unco.edu
+  #           </a>"
 ---
 
 # Welcome
 
-I am an Associate Professor in the School of Mathematical Sciences at the University of Northern Coloardo.  If you find yourself on campus, stop by my office in Ross Hall 2239G and say hi!
+I am an Associate Professor in the School of Mathematical Sciences at the University of Northern Colorado.  If you find yourself on campus, stop by my office in Ross Hall 2239G and say hi!
 
 ## Teaching
 

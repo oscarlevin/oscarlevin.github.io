@@ -79,9 +79,9 @@ analytics:
 author:
   name             : #"Oscar Levin"
   avatar           : "/assets/images/headshot.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Associate Professor"
-  location         : #"Greeley, Co"
-  email            : #"oscar.levin@unco.edu"
+  bio              : "Associate Professor<br/> School of Mathematical Sciences <br/> University of Northern Colorado <br/> Greeley, Co 80634"
+  location         : "<b>Office</b>: Ross 2239G"
+  email            : "oscar.levin@unco.edu"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : #"oscarlevin"
+  github           : "oscarlevin"
   gitlab           :
   google_plus      :
   keybase          :
