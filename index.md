@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/bg-main.png
 excerpt: "Teaching math and stuff"
 author_profile: true
-sidebar:
+# sidebar:
   # - title: ""
     #image: /assets/images/headshot.png
     #image_alt: "Oscar Levin, PhD"
