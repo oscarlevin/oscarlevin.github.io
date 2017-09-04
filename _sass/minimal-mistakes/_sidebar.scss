@@ -115,6 +115,19 @@
   font-size: $type-size-5;
 }
 
+.author__position {
+  margin: 0;
+
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.sidebar .author__position{
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+}
+
 .author__bio {
   margin: 0;
 
@@ -122,6 +135,7 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
+  font-size: $type-size-8;
 }
 
 .author__urls-wrapper {
