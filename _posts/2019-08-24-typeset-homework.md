@@ -1,12 +1,15 @@
 ---
+layout: article
 title: Typeset your math homework
+tags: tech tex teaching
 ---
 
-<!-- # How to Typeset Mathematics -->
-
 Typing your math homework has two main advantages over hand written work.  First, typeset mathematics is easier to read, for which your professor will thank you.  Second, it is easier to edit, correct, and even write mathematics the first time when you are typing, since you can insert or delete content as you go.
+<!-- more -->
 
-However, there are also drawbacks.  The main one is that you need to figure out how to type all those symbols! 
+# How to typeset mathematics
+
+The main challenge is that you need to figure out how to type all those symbols! 
 Although word processing programs like Word or Google Docs allow you to insert "equations", if you want to do any amount of serious mathematics, you will want to use a *markup language*.  You type your document in plain text using the syntax (markup) of the language, and then compile your text document into a nicely formatted pdf or webpage.  
 
 Here we will consider two such languages; markdown and LaTeX.  Here is the short version: Markdown is easier to get started with, but gives you less control over the structure and format of your document.  LaTeX has a steeper learning curve but is the gold standard for writing math or science papers, and you will need to learn the LaTeX commands for math symbols to put them in Markdown anyway.
