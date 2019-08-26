@@ -5,7 +5,8 @@ tags: tech tex teaching
 ---
 
 Typing your math homework has two main advantages over hand written work.  First, typeset mathematics is easier to read, for which your professor will thank you.  Second, it is easier to edit, correct, and even write mathematics the first time when you are typing, since you can insert or delete content as you go.
-<!-- more -->
+
+<!--more-->
 
 # How to typeset mathematics
 
@@ -32,7 +33,7 @@ If you use one of the online editors, you can download the "source" files (it wi
 
 Like Markdown, LaTeX is a markup language.  So you type your document in a text editor, and then compile it into a pdf (or other format, but mostly pdf).  It used to be that this required that you install LaTeX packages on your computer (which isn't hard, but is a big install).  Now you can use an online editor called [Overleaf](https://www.overleaf.com?r=26028ffe&rm=d&rs=b).  There you can type your documents and compile inside your browser (and then download the pdf).  It also has a bunch of templates you can use (including homework templates) to get started.
 
-That overleaf has templates is good, because there is a lot of baggage in a LaTeX document that tells it how to format everything.  When you are starting out, you don't need to worry about this (thanks to the templates).  And all of this is really nice if you want to do anything beyond simple documents.  For example, you can create numbered theorems (LaTeX keeps track of your numbers) and get nice proof...qed formatting around your proofs.  You can also define macros, so that instead of typing `\mathbb{N}` to get $\mathbb{N}$, you can write `\N` each time.
+That overleaf has templates is good, because there is a lot of baggage in a LaTeX document that tells it how to format everything.  When you are starting out, you don't need to worry about this (thanks to the templates).  And all of this is really nice if you want to do anything beyond simple documents.  For example, you can create numbered theorems (LaTeX keeps track of your numbers) and get nice proof...qed formatting around your proofs.  You can also define macros, so that instead of typing `\mathbb{N}` to get \(\mathbb{N}\), you can write `\N` each time.
 
 Using Pandoc, you can convert other formats, including Markdown and Word, to LaTeX.  You could upload this to Overleaf, or compile yourself.
 
