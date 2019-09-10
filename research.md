@@ -14,6 +14,12 @@ like to study, as well as my approach to research, check out my papers and talks
 
 The following papers, though copyrighted, may be downloaded for personal and non-profit educational use.
 
+* **[Prime labelings of infinite graphs](/papers/PrimeLabelings-preprint.pdf)**, with Matthew Kenigsberg,
+Involve, a journal of mathematics, 12:4 (2019) 633-646\. The final publication is available from
+[the journal's website](https://msp.org/involve/2019/12-4/p06.xhtml).
+
+  **Abstract:** A finite graph on $n$ vertices has a prime labeling provided there is a way to label the vertices with the integers 1 through $n$ such that every pair of adjacent vertices has relatively prime labels.  In this paper, we extend the definition of prime labeling to infinite graphs and give a simple necessary and sufficient condition for an infinite graph to have a prime labeling.  We then measure the complexity of prime labelings of infinite graphs using techniques from computability theory to verify that our condition is as simple as possible.
+
 * **[Computing Planarity in Computable Planar Graphs](/papers/ComputablePlanarGraphs.pdf)**, with Taylor McMillan,
 Graphs and Combinatorics, 32:6 (2016) 2525-2539\. The final publication is available at
 [link.springer.com](http://link.springer.com/article/10.1007/s00373-016-1725-8).
@@ -104,6 +110,8 @@ partitions. Gasarch and Lee left open what happens for other \(\Delta^0_2\) sets
   
 ## Selected Talks 
   
+* [Reverse Mathematics of Maximal and Perfect Matchings](/talks/siu2019-maximal-matchings.pdf) - SIU Pure Mathematics Conference, May 15, 2019.
+* [Coloring Hypergraphs is Harder than Coloring Graphs](/talks/jmm2019-hypergraphs.pdf) - Joint Mathematics Meeting in Baltimore, January 17, 2019.
 * [Knights and Knaves and Naive Sets](/talks/mathfest2018.pdf) - MathFest in Denver, August 4, 2018. 
 * [A Paradox of Finite Cardinality](/talks/maa-rms2017.pdf) - Rocky Mountain Section of the MAA meeting, April 22, 2017.
 * [Graph Labelings and Computability Theory](/talks/jmm2017talk.pdf) - Joint Mathematics Meeting in Atlanta, January
