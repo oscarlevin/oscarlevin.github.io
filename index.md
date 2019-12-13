@@ -25,13 +25,13 @@ I am an Associate Professor in the School of Mathematical Sciences at the Univer
 
 ## Teaching
 
-Since arriving at UNC in 2011, I have taught Discrete Mathematics many times, as well as Modern Geometry I, Abstract Algebra I and II, Calculus I and II, Topics in Calculus, Basic Analysis I and II, Algorithms and Data Structures, History of Math, as well as graduate courses in Logic, Graph Theory, Analysis, and Applied Probability and Statistics. I have also designed a 1-credit corequisite course for calculus called Supplemental Calculus, to provide students just-in-time help while they take Calculus I.
+Since arriving at UNC in 2011, I have taught Discrete Mathematics many times, as well as Modern Geometry I, Abstract Algebra I and II, Calculus I and II, Topics in Calculus, Basic Analysis I and II, Algorithms and Data Structures, History of Math, as well as graduate courses in Logic, Discrete Mathematics, Graph Theory, Analysis, Problem Solving, and Applied Probability and Statistics.
 
 Previously I taught a wide variety of courses at Coastal Carolina University and at the University of Connecticut while I did my graduate work there.
 
 ### Discrete Textbook
 
-To support my students in Discrete Mathematics, I have wrote a free and open source textbook, *Discrete Mathematics: an Open Introduction*.  You can download the book (completely free), view the online interactive version, or find a link to an inexpensive print copy on the [book's website](http://discretetext.oscarlevin.com).
+To support my students in Discrete Mathematics, I wrote a free and open source textbook, *Discrete Mathematics: an Open Introduction*.  You can download the book (completely free), view the online interactive version, or find a link to an inexpensive print copy on the [book's website](http://discrete.openmathbooks.org).
 
 ## Mathematics Research
 
