@@ -4,9 +4,10 @@ title: Ideas for effective formative assessments inside textbooks
 tags: PreTeXt textbooks teaching
 ---
 
-At the AIM sponsored workshop *Interactive Assessments in Open Source Textbooks,* a group of participants had a lively discussion about how to include effective assessments in textbooks, especially *formative* assessments that occur in the middle of a section to engage the reader.  Here are a few things I took away from the conversation.  The context was mathematics textbooks in general, at the level of developmental college mathematics and above.  
+At the AIM sponsored workshop *Interactive Assessments in Open Source Textbooks,* a group of participants had a lively discussion about how to include effective assessments in textbooks, especially *formative* assessments that occur in the middle of a section to engage the reader.  Here are a few things I took away from the conversation.  
 
 <!--more-->
+The context was mathematics textbooks in general, at the level of developmental college mathematics and above.  Below I refer to "students", "readers", and "learners" mostly interchangeably; the primary application we have in mind is a textbook assigned to a class of students, although independent learners should benefit from these features as well.
 
 ## Formative assessments inside a textbook: the potential
 
@@ -22,7 +23,7 @@ There are a few different goals we might have in asking readers of a book to com
 * Encourage students to read actively, and more generally teach students how to become more effective learners of mathematics.
 * Incentivize actually spending time with the textbook.
 
-One thing that these assessments are *not* intended to accomplish is to punish students for not learning new material quickly.  For one, this means that the assessments should be graded mostly for completeness (and perhaps some appropriate level of effort).  Further, we must be careful to avoid asking questions that students repeatedly get wrong: we are not trying to catch students, but rather to encourage them to grow.
+One thing that these assessments are *not* intended to accomplish is to punish students for not learning new material fast enough.  For one, this means that the assessments should be graded mostly for completeness (and perhaps some appropriate level of effort) or even not at all.  Further, we must be careful to avoid asking questions that students repeatedly get wrong: we are not trying to catch students, but rather to encourage them to grow.
 
 ## Potential pitfalls
 
