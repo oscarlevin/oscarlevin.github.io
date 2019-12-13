@@ -62,7 +62,7 @@ Both of these word processing programs allow you to insert math equations using 
 
 Whatever format you choose, you should use it correctly.  In particular:
 
-* All math should be written in "math mode".  If you have a variable $x$, you should put that inside dollar signs or use the equation editor.  Do NOT leave it as just x, or even just make it italic.  Do you see the difference: *x* vs $x$.  Which looks more like math?  What about *f(x)* vs $f(x)$?  
+* All math should be written in "math mode".  If you have a variable $$x$$, you should put that inside dollar signs or use the equation editor.  Do NOT leave it as just x, or even just make it italic.  Do you see the difference: *x* vs $$x$$.  Which looks more like math?  What about *f(x)* vs $$f(x)$$?  
 * Other formatting should have *semantic* meaning, not just look pretty.  This means that when you want to put a title in your document, you should format it as a title, not format it as larger font and bold.  If you use Word, select Heading or Subheading.  If you use LaTeX, type `\section{your title}`.  In Markdown, use  `## your title`.  This way, if you ever want to convert your document to another format, you have some hope of it working.
 
 
