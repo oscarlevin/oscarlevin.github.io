@@ -25,7 +25,7 @@ I am an Associate Professor in the School of Mathematical Sciences at the Univer
 
 ## Teaching
 
-Since arriving at UNC in 2011, I have taught Discrete Mathematics many times, as well as Modern Geometry I, Abstract Algebra I and II, Calculus I and II, Topics in Calculus, Basic Analysis I and II, Algorithms and Data Structures, History of Math, as well as graduate courses in Logic, Discrete Mathematics, Graph Theory, Analysis, Problem Solving, and Applied Probability and Statistics.
+Since arriving at UNC in 2011, I have taught Discrete Mathematics many times, as well as Modern Geometry I, Abstract Algebra I and II, Calculus I and II, Topics in Calculus, Basic Analysis I and II, Algorithms and Data Structures, History of Math, and also graduate courses in Logic, Discrete Mathematics, Graph Theory, Analysis, Problem Solving, and Applied Probability and Statistics.
 
 Previously I taught a wide variety of courses at Coastal Carolina University and at the University of Connecticut while I did my graduate work there.
 
