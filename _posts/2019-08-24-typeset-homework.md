@@ -55,7 +55,7 @@ A jupyter notebook is a document that contains both executable code and regular 
 
 ### Word or Google Docs
 
-Both of these word processing programs allow you to insert math equations using an equation editor.  However, if you plan to insert a lot of math, this can be slow.  To speed it up a bit, learn the keyboard shortcuts.  On Windows, the MS Word equation editor can be brought up using `alt+=`.  The Google Docs equation editor requires `alt+i, alt+e`.  The equation editor in Word is pretty good about taking LaTeX math commands and turning them into the correct symbols.  Google Docs only works sometimes.
+Both of these word processing programs allow you to insert math equations using an equation editor.  However, if you plan to insert a lot of math, this can be slow.  To speed it up a bit, learn the keyboard shortcuts.  On Windows, the MS Word equation editor can be brought up using `alt+=`.  The Google Docs equation editor requires `alt+i, alt+e`.  The equation editor in Word is pretty good about taking LaTeX math commands and turning them into the correct symbols.  There are [nice collections of shortcuts](https://www.cs.bgu.ac.il/~khitron/Equation%20Editor.pdf) available.  Google Docs only works sometimes.
 
 
 ## Doing the Right Thing
