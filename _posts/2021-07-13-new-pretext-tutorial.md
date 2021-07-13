@@ -25,7 +25,7 @@ Download (or make sure you already have) the following software:
 
 Note that the software above doesn't include PreTeXt itself.  Let's get this set up next.
 
-1. Open VS Code and use shortcut [Ctrl+```] (or on a Mac: [Cmd+```]; from now on, Ctrl = Cmd on Mac).  This opens a terminal where you can type commands.
+1. Open VS Code and use shortcut [Ctrl+&#96;] (or on a Mac: [Cmd+&#96;]; from now on, Ctrl = Cmd on Mac).  This opens a terminal where you can type commands.
 2. To make sure you have Python properly installed, enter the command `Python -V`.  If you get back "Python 3.8.5" (or a newer version), then you are good to go.
 3. Enter `pip install pretextbook`.  
 4. Now if you type `pretext --version` you should get at least "0.3.1" as the output. 
