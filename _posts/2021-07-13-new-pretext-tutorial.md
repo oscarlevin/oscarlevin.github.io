@@ -25,7 +25,7 @@ Download (or make sure you already have) the following software:
 
 Note that the software above doesn't include PreTeXt itself.  Let's get this set up next.
 
-1. Open VS Code and use shortcut [Ctrl+`] (or on a Mac: [Cmd+`]; from now on, Ctrl = Cmd on Mac).  This opens a terminal where you can type commands.
+1. Open VS Code and use shortcut [Ctrl+\`] (or on a Mac: [Cmd+\`]; from now on, Ctrl = Cmd on Mac).  This opens a terminal where you can type commands.
 2. To make sure you have Python properly installed, enter the command `Python -V`.  If you get back "Python 3.8.5" (or a newer version), then you are good to go.
 3. Enter `pip install pretextbook`.  
 4. Now if you type `pretext --version` you should get at least "0.3.1" as the output. 
@@ -36,17 +36,17 @@ From inside VS Code, click on the Extensions button (shortcut [Ctrl+Shift+X]) an
 
 ## Creating a new PreTeXt project
 
-We are now ready to start a new project.  In VS Code, open the folder that will hold your project (File->Open Folder...).  Use [Ctrl+`] to pull up the terminal.  Then type (in the terminal): 
+We are now ready to start a new project.  In VS Code, open the folder that will hold your project (File->Open Folder...).  Use [Ctrl+\`] to pull up the terminal.  Then type (in the terminal): 
 
-  pretext new book
+    pretext new book
 
 This will create a new folder called "new-pretext-project".  Open this folder in VS Code and again pull up the terminal.  Now type (in the terminal):
 
-  pretext build html
+    pretext build html
 
 This will transform the .ptx files in the "source" folder into html files and put them into a new folder "output".  To preview these files, again in the terminal, type:
 
-  pretext view
+    pretext view
 
 You can now view the html version of your new book by going to [http://localhost:8000/](http://localhost:8000/). 
 
