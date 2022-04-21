@@ -21,7 +21,7 @@ article_header:
 
 # Welcome
 
-I am an Associate Professor in the School of Mathematical Sciences at the University of Northern Colorado.  If you find yourself on campus, stop by my office in Ross Hall 2239G and say hi!
+I am an Associate Professor in the School of Mathematical Sciences at the University of Northern Colorado.  If you find yourself on campus, stop by my office in Ross Hall 2240D and say hi!
 
 ## Teaching
 
