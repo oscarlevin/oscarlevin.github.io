@@ -89,8 +89,9 @@ partitions. Gasarch and Lee left open what happens for other \(\Delta^0_2\) sets
 * [**Counting Knights and Knaves**](/papers/CountingKnightsKnaves.pdf) with
   Gerri Roberts. _College Mathematics Journal_ 44:4 (September 2013) 300-306. **Abstract:** To better understand some of
   the classic knights and knaves puzzles, we count them. Doing so reveals a surprising connection between puzzles and
-  solutions, and highlights some beautiful combinatorial identities. * [**Embeddings of Computable
-  Structures**](/papers/structures.pdf) with Asher M. Kach and Reed Solomon. _Notre Dame J. Formal Logic_ 51:1 (May
+  solutions, and highlights some beautiful combinatorial identities. 
+  
+* [**Embeddings of Computable Structures**](/papers/structures.pdf) with Asher M. Kach and Reed Solomon. _Notre Dame J. Formal Logic_ 51:1 (May
   2010) 55-68.
   
   **Abstract:** We study what the existence of a classical embedding between computable structures implies
