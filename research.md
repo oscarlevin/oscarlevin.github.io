@@ -14,12 +14,14 @@ like to study, as well as my approach to research, check out my papers and talks
 
 The following papers, though copyrighted, may be downloaded for personal and non-profit educational use.
 
-* **[The computational strength of matchings in countable graphs](/papers/FJLM_Matchings.pdf)**, with Stephen Flood, Matthew Jura, and Tyler Markkanen.
+* **[The computational strength of matchings in countable graphs](/papers/FJLM_Matchings.pdf)**, with Stephen Flood, Matthew Jura, and Tyler Markkanen, _Annals of Pure and Applied Logic_, 173(8) (August 2022).  Final version available from [Eslevier](https://www.sciencedirect.com/science/article/abs/pii/S0168007222000483).
+
   **Abstract:** In a 1977 paper, Steffens identified an elegant criterion for determining when a countable graph has a perfect matching. In this paper, we will investigate the proof-theoretic strength of this result and related theorems. We show that a number of natural variants of these theorems are equivalent, or closely related, to the “big five” subsystems of reverse mathematics.
 
   The results of this paper explore the relationship between graph theory and logic by showing the way in which specific changes to a single graph-theoretic principle impact the corresponding proof-theoretical strength. Taken together, the results and questions of this paper suggest that the existence of matchings in countable graphs provides a rich context for understanding reverse mathematics more broadly.
 
-* **[Puzzles of cardinality](/papers/PuzzlesOfCardinality.pdf)**, with Tyler Markkanen, _College Mathematics Journal_, 52:4 (September 2021).  
+* **[Puzzles of cardinality](/papers/PuzzlesOfCardinality.pdf)**, with Tyler Markkanen, _College Mathematics Journal_, 52:4 (September 2021).  Final version available from [the journal's website](https://www.tandfonline.com/doi/full/10.1080/07468342.2021.1941539).
+  
   **Abstract:** We investigate a new sort of puzzle of self-reference, in which the puzzler is asked to find the cardinality of a set defined in terms of its own cardinality.  We discover which sets are the unique solution to such puzzles and see how puzzles for such sets can be made arbitrarily complex.  Then we compare our new cardinality puzzles to the classic puzzles of knights and knaves.
 
 * **[Prime labelings of infinite graphs](/papers/PrimeLabelings-preprint.pdf)**, with Matthew Kenigsberg,
