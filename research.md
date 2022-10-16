@@ -14,6 +14,14 @@ like to study, as well as my approach to research, check out my papers and talks
 
 The following papers, though copyrighted, may be downloaded for personal and non-profit educational use.
 
+* **[The computational strength of matchings in countable graphs](/papers/FJLM_Matchings.pdf)**, with Stephen Flood, Matthew Jura, and Tyler Markkanen.
+  **Abstract:** In a 1977 paper, Steffens identified an elegant criterion for determining when a countable graph has a perfect matching. In this paper, we will investigate the proof-theoretic strength of this result and related theorems. We show that a number of natural variants of these theorems are equivalent, or closely related, to the “big five” subsystems of reverse mathematics.
+
+  The results of this paper explore the relationship between graph theory and logic by showing the way in which specific changes to a single graph-theoretic principle impact the corresponding proof-theoretical strength. Taken together, the results and questions of this paper suggest that the existence of matchings in countable graphs provides a rich context for understanding reverse mathematics more broadly.
+
+* **[Puzzles of cardinality](/papers/PuzzlesOfCardinality.pdf)**, with Tyler Markkanen, _College Mathematics Journal_, 52:4 (September 2021).  
+  **Abstract:** We investigate a new sort of puzzle of self-reference, in which the puzzler is asked to find the cardinality of a set defined in terms of its own cardinality.  We discover which sets are the unique solution to such puzzles and see how puzzles for such sets can be made arbitrarily complex.  Then we compare our new cardinality puzzles to the classic puzzles of knights and knaves.
+
 * **[Prime labelings of infinite graphs](/papers/PrimeLabelings-preprint.pdf)**, with Matthew Kenigsberg,
 Involve, a journal of mathematics, 12:4 (2019) 633-646\. The final publication is available from
 [the journal's website](https://msp.org/involve/2019/12-4/p06.xhtml).
@@ -92,7 +100,7 @@ partitions. Gasarch and Lee left open what happens for other \(\Delta^0_2\) sets
   solutions, and highlights some beautiful combinatorial identities. 
   
 * [**Embeddings of Computable Structures**](/papers/structures.pdf) with Asher M. Kach and Reed Solomon. _Notre Dame J. Formal Logic_ 51:1 (May
-  2010) 55-68.
+  1)    55-68.
   
   **Abstract:** We study what the existence of a classical embedding between computable structures implies
   about the existence of computable embeddings. In particular, we consider the effect of fixing and varying the
