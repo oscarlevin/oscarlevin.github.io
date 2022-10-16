@@ -33,6 +33,8 @@ Previously I taught a wide variety of courses at Coastal Carolina University and
 
 To support my students in Discrete Mathematics, I wrote a free and open source textbook, *Discrete Mathematics: an Open Introduction*.  You can download the book (completely free), view the online interactive version, or find a link to an inexpensive print copy on the [book's website](http://discrete.openmathbooks.org).
 
+This summer I will be working on a new edition that will also be hosted on Runestone.  More datails to come.
+
 ## Mathematics Research
 
 My primary interests are in effective algebra and combinatorics, computability theory, reverse mathematics, and mathematical logic. Effective algebra endeavors to understand results of algebra and combinatorics from a viewpoint of computability theory. My Ph.D. dissertation concerns the effective content of ordered fields. My thesis, along with some other papers I've worked on, are available on my [research page](research)
