@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2024-04-19T09:51:50-06:00       *-->
+<!--*   A recent stable commit (2022-07-01):   *-->
+<!--* 6c761d3dba23af92cba35001c852aac04ae99a5f *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html xmlns:pi="http://pretextbook.org/2020/pretext/internal">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>OER textbooks with embedded interactive assessments</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reset.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/theme/moon.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/plugin/math/math.js"></script><style>
+ul {
+  display: block !important;
+}
+.reveal img {
+  border: 0.5px !important;
+  border-radius: 2px 10px 2px;
+  padding: 4px;
+}
+.definition,.theorem,.activity {
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 2px 10px 2px;
+  padding: 1%;
+  margin-bottom: 2em;
+}
+.definition {
+  background: #00608010;
+}
+.theorem {
+  background: #ff000010;
+}
+.proof {
+  background: #ffffff90;
+}
+.activity {
+  background: #60800010;
+}
+dfn {
+  font-weight: bold;
+}
+.pretext-content ol.no-marker,
+.pretext-content ul.no-marker,
+.pretext-content li.no-marker {
+    list-style-type: none;
+}
+
+.pretext-content ol.decimal {
+    list-style-type: decimal;
+}
+.pretext-content ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+.pretext-content ol.upper-alpha {
+    list-style-type: upper-alpha;
+}
+.pretext-content ol.lower-roman {
+    list-style-type: lower-roman;
+}
+.pretext-content ol.upper-roman {
+    list-style-type: upper-roman;
+}
+.pretext-content ul.disc {
+    list-style-type: disc;
+}
+.pretext-content ul.square {
+    list-style-type: square;
+}
+.pretext-content ul.circle {
+    list-style-type: circle;
+}
+.pretext-content ol.no-marker,
+.pretext-content ul.no-marker {
+    list-style-type: none;
+}
+.pretext-content .cols1 li,
+.pretext-content .cols2 li,
+.pretext-content .cols3 li,
+.pretext-content .cols4 li,
+.pretext-content .cols5 li,
+.pretext-content .cols6 li {
+    float: left;
+    padding-right:2em;
+}
+          </style>
+</head>
+<body><div class="reveal pretext-content">
+<div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="slides">
+<section><section><h1>OER textbooks with embedded interactive assessments</h1>
+<table>
+<tr><th align="center" style="border-bottom: 0px;">Oscar Levin</th></tr>
+<tr><td align="center" style="border-bottom: 0px;">University of Northern Colorado</td></tr>
+<tr><td align="center"></td></tr>
+</table>
+<h4>Rocky Mountain Section Meeting</h4>
+<h4><div class="date">April 19, 2024</div></h4></section><section><h3>Abstract</h3>
+<div align="left"><p>Imagine if your textbook included the online homework right in the book. Imagine if this was completely free for you and your students.  With PreTeXt and Runestone, this dream can become reality!  In this talk we will explore what can be accomplished with these two open source projects, both from a teaching and authoring standpoint.</p></div></section></section><section><section><h1>Why OER?</h1></section><section><h3>Just a free textbook?</h3>
+<div align="left"> <p><ul class="disc">
+<li class="fragment"><p>Free.</p></li>
+<li class="fragment"><p>Almost as good.</p></li>
+</ul></p> <p class="fragment">Cost is important:<ul class="disc">
+<li><p>Students are increasingly being priced out of college.</p></li>
+<li><p>Students shouldn’t have to choose between a textbook and food.</p></li>
+<li><p>Textbook cost is a social justice issue!</p></li>
+</ul></p>
+</div></section><section><h3>Realities and Alternatives</h3>
+<div align="left"> <p>The average student should budget <span class="process-math">\(\$1240 - \$1400\)</span> for textbooks and course materials (annually).</p> <p class="fragment">To cope with the cost:<ul class="disc">
+<li class="fragment"><p>Purchase an older edition.</p></li>
+<li class="fragment"><p>Delay purchasing the textbook.</p></li>
+<li class="fragment"><p>Never purchase the textbook.</p></li>
+<li class="fragment"><p>Share the textbook.</p></li>
+<li class="fragment"><p>Steal the textbook.</p></li>
+</ul></p>
+</div></section></section><section><section><h1>The Challenge of OER</h1></section><section><h3>Challenges</h3>
+<div align="left"> <p>Commercial textbooks come with stuff.<ul class="disc">
+<li><p>Homework Systems.</p></li>
+<li><p>Canvas Integration.</p></li>
+<li><p>Instructor Resources.</p></li>
+</ul></p>
+</div></section><section><h3>Not just free...</h3>
+<div align="left"> <p class="fragment">...BETTER!<ul class="disc">
+<li class="fragment"><p>Publishers need a product they can sell to as many people as possible.</p></li>
+<li class="fragment"><p>Textbooks written by faculty for faculty can be opinionated best teaching practices.</p></li>
+<li class="fragment"><p>The Goal: Make it easy for faculty to create or adopt OER that is better than the commercial alternative.</p></li>
+</ul></p>
+</div></section></section><section><section><h1>PreTeXt and Runestone</h1></section><section><h3>PreTeXt for authoring</h3>
+<div align="left"> <p><ul class="disc">
+<li><p>Markup language for scholarly documents.</p></li>
+<li><p>Write once. Read anywhere.</p></li>
+<li><p>Focus on accessibility.</p></li>
+<li><p>It’s actually not that difficult.</p></li>
+</ul></p>
+</div></section><section><h3>Runestone for teaching</h3>
+<div align="left"> <p><ul class="disc">
+<li><p>Started as a Computer Science textbook hosting platform.</p></li>
+<li><p>Adopted PreTeXt for authoring; now includes math books.</p></li>
+<li><p>Demo time!</p></li>
+</ul></p>
+</div></section></section><section><section><h1>Get Involved</h1></section><section><h3>Collaborative OER Mathematics Textbooks</h3>
+<div align="left"> <p><ul class="disc">
+<li><p>Workshop: May 15-16, 2024 at Metro.</p></li>
+<li><p>Funding available for Colorado faculty to collaborate on PreTeXt/Runestone textbook projects.</p></li>
+<li><p>Please apply!</p></li>
+</ul></p>
+</div></section><section><h3>Links</h3>
+<div align="left"> <div style="display:table;margin-left:12.5%;margin-right:12.5%;">
+<div style="display:table-cell;width:33.3333333333333%;vertical-align:top;"><p><ul class="disc">
+<li><p><a class="external" href="https://openmathbooks.org/comat/" target="_blank">COMaT Workshop</a></p></li>
+<li><p><a class="external" href="https://discrete.openmathbooks.org/" target="_blank">Discrete Mathematics, an Open Introduction</a></p></li>
+<li><p><a class="external" href="https://pretextbook.org/" target="_blank">PreTeXt</a></p></li>
+<li><p><a class="external" href="https://landing.runestone.academy/" target="_blank">Runestone Academy</a></p></li>
+</ul></p></div>
+<div style="display:table-cell;width:33.3333333333333%;vertical-align:top;"><figure class="figure figure-like" id="qrcode"><img src="qr-talk.png"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1<span class="period">.</span></span><span class="space"> </span>This page</figcaption></figure></div>
+</div>
+</div></section></section>
+</div>
+</div></body>
+<script>
+Reveal.initialize({
+  controls: true,
+  controlsTutorial: true,
+  controlsLayout: 'bottom-right',
+  controlsBackArrows: 'faded',
+  navigationMode: 'default',
+  progress: false,
+  center: false,
+  hash: true,
+  transition: 'fade',
+  width: "100%",
+  height: "100%",
+  margin: "0.025",
+  math: {
+    mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+    config: 'TeX-AMS_HTML-full',
+    // other options are passed into MathJax.Hub.Config()
+    tex2jax: {
+      inlineMath:  [['\\(','\\)']],
+      displayMath: [],
+    }
+  },
+  plugins: [ RevealMath ]
+});
+</script>
+</html>
